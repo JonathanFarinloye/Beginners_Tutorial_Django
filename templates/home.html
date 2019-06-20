@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is the home page</title>
+</head>
+<body>
+<h3>Hey you! Input stuff here.</h3>
+<form method="POST" action="{% url 'count-vowels' %}">
+    {% csrf_token %}
+    <textarea name="input-stuff" rows="10" cols="30"></textarea>
+    <button type="submit">Check vowel count</button>
+</form>
+</body>
+</html>

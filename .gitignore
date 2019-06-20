@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Django ###
+*.log
+*.pot
+*.env
+*__pycache__/
+local_settings.py
+.idea
